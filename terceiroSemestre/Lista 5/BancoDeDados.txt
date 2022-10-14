@@ -1,0 +1,4 @@
+Codigo: [10,20,30,40,50]
+Produto: [banana,maca,melao,laranja,uva]
+Valor: [100,200,300,400,500]
+Estoque: [1000,2000,3000,4000,5000]

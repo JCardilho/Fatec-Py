@@ -1,0 +1,5 @@
+
+PRODUTO | QUANTIDADE | VALOR 
+maca 2190 438000.0 
+maca 9 1800.0 
+Valor Total: 439800.0

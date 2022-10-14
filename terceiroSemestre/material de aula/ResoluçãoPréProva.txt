@@ -1,0 +1,37 @@
+03)Crie um algoritmo onde se insira 4 palavras levando-se em conta que essas palavras possuam duas consoantes e duas vogais cada (bola, tatu, rota, zero, etc). Faça um programa onde a cada palavra inserida separe a sílaba e complete com todas as vogais. (4,0). Exemplo:
+Digite a palavra
+Leia(bola)
+Escreva
+Bo-la 
+Ba-Be-Bi-Bo-Bu
+La-le-li-lo-lu
+ 
+##bola
+  0123  
+vogal=['a','e','i','o','u']
+for indice in range(0:4):
+	print("Informe uma palavra")
+	palavra=str(input())
+	##pega a primeira letra
+	consoante01=palavra[0] ##b
+	consoante02=palavra[2] ##l
+	silaba01=palavra[0:2]	##bo
+	silaba02=palavra[2:2]   ##la
+	silaba01=copy(palavra, apartirdoindice zero, 2 caracteres)
+	silaba02=copy(palavra, apartirdoindice dois, 2 caracteres)
+
+	print(silaba01, "-",silaba02)
+	for c in range(0,5):
+		print(consoante01, vogal[c])
+		print(consoante02, vogal[c])	
+	print(consoante01,"a")
+	print(consoante01,"e")
+	print(consoante01,"i")
+	print(consoante01,"o")
+	print(consoante01,"u")
+
+	print(consoante02,"a")
+	print(consoante02,"e")
+	print(consoante02,"i")
+	print(consoante02,"o")
+	print(consoante02,"u") 
