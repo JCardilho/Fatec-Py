@@ -8,6 +8,7 @@
 #r+ leitura mais escrita
 
 
+
 arquivo = open("./test.txt","r")
 
 #print(arquivo.readable())
